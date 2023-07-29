@@ -1,15 +1,15 @@
-import { Entity, Column, CreateDateColumn, UpdateDateColumn, PrimaryGeneratedColumn, } from 'typeorm'
+import { Entity, Column, CreateDateColumn, UpdateDateColumn, PrimaryGeneratedColumn, Unique, } from 'typeorm'
 
 @Entity("users")
-export class ProductEntity {
+export class User {
     @PrimaryGeneratedColumn()
     id: number
 
     @Column()
     username: string
 
-    @Column()
-    email: number
+    @Column({ unique: true })
+    email: string
 
     @Column()
     password: string
