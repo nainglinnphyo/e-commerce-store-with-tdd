@@ -22,7 +22,7 @@ describe('AuthController (e2e)', () => {
     };
 
     describe("/auth/register (POST)", () => {
-        it("it should register a user and return the new user object", () => {
+        it("it should login a user and return the user object with accessToken!", () => {
             return request(authUrl)
                 .post("/login")
                 .set("Accept", "application/json")
