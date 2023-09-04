@@ -19,11 +19,10 @@ This repository contains a robust NestJS e-commerce API built with TypeORM and d
 ## Getting Started
 
 Follow these steps to set up and run the e-commerce API on your local machine:
-
-1. **Clone the Repository:**
-
+**Clone the Repository:**
    ```bash
    git clone https://github.com/nainglinnphyo/e-commerce-store-with-tdd.git
+   ```
 
 ## Getting Started
 
